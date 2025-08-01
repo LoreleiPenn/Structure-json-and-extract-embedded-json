@@ -1,0 +1,26 @@
+[
+  {
+    "log_id": 101,
+    "timestamp": "2025-07-31T18:07:10-06:00",
+    "source_ip": "192.168.1.10",
+    "message": "Strange."
+  },
+  {
+    "log_id": 102,
+    "timestamp": "2025-07-31T18:08:22-06:00",
+    "source_ip": "10.0.0.54",
+    "message": "Failure. \"trace_detail\": {\"event_type\":\"DATABASE_QUERY\",\"status\":\"FAILURE\",\"user_id\":\"user_b\"}"
+  },
+  {
+    "log_id": 103,
+    "timestamp": "2025-07-31T18:09:05-06:00",
+    "source_ip": "192.168.1.15",
+    "message": "Success. \"trace_detail\": {\"event_type\":\"FILE_UPLOAD\",\"status\":\"SUCCESS\",\"user_id\":\"user_a\"}"
+  },
+  {
+    "log_id": 104,
+    "timestamp": "2025-07-31T18:10:49-06:00",
+    "source_ip": "172.16.31.8",
+    "message": "Success. \"trace_detail\": {\"event_type\":\"API_CALL\",\"status\":\"TIMEOUT\",\"user_id\":\"user_c\"}"
+  }
+]
