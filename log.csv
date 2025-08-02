@@ -1,0 +1,5 @@
+log_id,timestamp,source_ip,message,event_type,status,user_id
+101,2025-07-31T18:07:10-06:00,192.168.1.10,Strange.,,,
+102,2025-07-31T18:08:22-06:00,10.0.0.54,"Failure. ""trace_detail"": {""event_type"":""DATABASE_QUERY"",""status"":""FAILURE"",""user_id"":""user_b""}",DATABASE_QUERY,FAILURE,user_b
+103,2025-07-31T18:09:05-06:00,192.168.1.15,"Success. ""trace_detail"": {""event_type"":""FILE_UPLOAD"",""status"":""SUCCESS"",""user_id"":""user_a""}",FILE_UPLOAD,SUCCESS,user_a
+104,2025-07-31T18:10:49-06:00,172.16.31.8,"Success. ""trace_detail"": {""event_type"":""API_CALL"",""status"":""TIMEOUT"",""user_id"":""user_c""}",API_CALL,TIMEOUT,user_c
